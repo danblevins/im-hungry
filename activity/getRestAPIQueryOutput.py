@@ -22,13 +22,6 @@ def get_rest_api_query_output(restaurant_query):
     temp_dict['rating'] = restaurant_query['businesses'][restaurant]['rating']
     temp_dict['num_rating'] = restaurant_query['businesses'][restaurant]['review_count']
     temp_dict['address'] = ', '.join(restaurant_query['businesses'][restaurant]['location']['display_address'])
-
-    for category in range(len(restaurant_query['businesses'][restaurant]['categories'])):
-      try:
-        temp_list.append(restaurant_query['businesses'][restaurant]['categories'][category]['title'])
-        temp_dict['category'] = ' / '.join(temp_list)
-      except:
-        temp_dict['category'] = 'N/A'
         
     output.append(temp_dict)
   
