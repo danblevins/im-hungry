@@ -1,9 +1,9 @@
 from flask import Flask, redirect, url_for, render_template, request, json
 
-from queryGraphQL import query_graphql
-from getGraphQLQueryOutput import get_graphql_query_output
-from queryRestAPI import query_rest_api
-from getRestAPIQueryOutput import get_rest_api_query_output
+from models.queryGraphQL import query_graphql
+from models.queryRestAPI import query_rest_api
+from activity.getGraphQLQueryOutput import get_graphql_query_output
+from activity.getRestAPIQueryOutput import get_rest_api_query_output
 
 app = Flask(__name__)
 
