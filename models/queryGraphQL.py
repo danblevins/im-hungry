@@ -39,6 +39,6 @@ def query_graphql(food, location):
         }}
     }}
   """).format(food, location)
-  c = client.execute(gql(str_graphql))
+  query = client.execute(gql(str_graphql))
 
   return query
