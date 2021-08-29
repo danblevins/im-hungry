@@ -24,13 +24,7 @@ def get_graphql_query_output(restaurant_query):
         + restaurant_query['search']['business'][index_restaurant]['location']['state'] + ', ' 
         + restaurant_query['search']['business'][index_restaurant]['location']['country']
     )
-
-    for category in range(len(restaurant_query['search']['business'][index_restaurant]['categories'])):
-        try:
-            temp_list.append(category['search']['business'][index_restaurant]['categories'][category]['alias'])
-            temp_dict['category'] = ' / '.join(temp_list)
-        except:
-            temp_dict['category'] = 'N/A'
+    
     output.append(temp_dict)
 
   return output
