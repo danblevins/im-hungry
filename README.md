@@ -1,4 +1,4 @@
-# 💻 [I'm Hungry](https://imhungry-danblevins.herokuapp.com/) Web App
+# [I'm Hungry](https://imhungry-danblevins.herokuapp.com/)
 
 ## About this Project
 
@@ -6,8 +6,7 @@ This project allows the user to query and return results from Yelp's QraphQL and
 
 For more information visit: https://imhungry-danblevins.herokuapp.com/
 
-A Step-by-Step tutorial is coming soon!
-For a Step-by-Step tutorial, read this [Medium article](https://danblevins.medium.com/step-by-step-creating-a-flask-app-and-deploying-it-to-heroku-83350be5f8b).
+For a Step-by-Step Flask tutorial, read this [Medium article](https://danblevins.medium.com/step-by-step-creating-a-flask-app-and-deploying-it-to-heroku-83350be5f8b).
 
 ## Inspiration
 
