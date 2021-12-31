@@ -1,4 +1,4 @@
-# [I'm Hungry](https://imhungry-danblevins.herokuapp.com/)
+# 🍔 [I'm Hungry](https://imhungry-danblevins.herokuapp.com/)
 
 ## About this Project
 
