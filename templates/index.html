@@ -1,47 +1,47 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>I'm Hungry</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>I'm Hungry</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--<link rel="stylesheet" href="../static/css/main.css" />-->
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 	</head>
 	<body>
 
-		<!-- Banner -->
-			<section id="banner">
-				<div class="inner">
-					<header>
-                        <a href=""><h1>I'm Hungry</h1></a>
-                        <p>We help you find local, top-quality restaurants!</p>
-                    </header>
-                    <form action="#" method="post" autocomplete="off">
-						<div class="field half first">
-							<label for="Food"></label>
-							<input name="Food" id="Food" type="text" onfocus="this.value=''" value="{{food}}">
-						</div>
-						<div class="field half">
-							<label for="Location"></label>
-							<input name="Location" id="Location" type="text" onfocus="this.value=''" value="{{location}}">
-                        </div>
-                        <span></span>
-						<ul class="actions">
-                            <li><input value="Find Food" class="button" type="submit"></li>
-						</ul>
-                    </form>
-                    <p>{{message}}</p>
-                    <div class="arrow-container">
-                        <a href="#table-section">
-                            <div class="arrow"></div>
-                        </a>
-                    </div>
-				</div>
+	<!-- Banner -->
+	<section id="banner">
+	<div class="inner">
+		<header>
+                    <a href=""><h1>I'm Hungry</h1></a>
+                    <p>We help you find local, top-quality restaurants!</p>
+                </header>
+                <form action="#" method="post" autocomplete="off">
+			<div class="field half first">
+				<label for="Food"></label>
+				<input name="Food" id="Food" type="text" onfocus="this.value=''" value="{{food}}">
+			</div>
+			<div class="field half">
+				<label for="Location"></label>
+				<input name="Location" id="Location" type="text" onfocus="this.value=''" value="{{location}}">
+			</div>
+			<span></span>
+			<ul class="actions">
+			    <li><input value="Find Food" class="button" type="submit"></li>
+			</ul>
+                </form>
+		        <p>{{message}}</p>
+		        <div class="arrow-container">
+			    <a href="#table-section">
+			        <div class="arrow"></div>
+			    </a>
+		        </div>
+			</div>
             </section>
 
-		<!-- Table -->
-			<section id="table-section" class="wrapper">
-				<div class="inner">
+	    <!-- Table -->
+	    <section id="table-section" class="wrapper">
+		    <div class="inner">
                     <h4>Let's Eat!</h4><h5><a href=""><u>Reset</u></a></h5>
                     <div class="table-wrapper">
                         <table id="table">
@@ -65,10 +65,10 @@
                             </tbody>
                         </table>
                     </div>
-				</div>
+	    	</div>
             </section>
 
-		<!-- Footer -->
+	<!-- Footer -->
         <footer id="footer">
             <div class="copyright">
                 Created by <u><a href="https://www.linkedin.com/in/dan-blevins/" target="_blank">Dan Blevins</a></u>
@@ -76,7 +76,7 @@
             </div>
         </footer>
 
-		<!-- Scripts -->
+	<!-- Scripts -->
         <script type="text/javascript" src="static/js/jquery.min.js"></script>
         <script type="text/javascript" src="static/js/skel.min.js"></script>
         <script type="text/javascript" src="static/js/util.js"></script>
