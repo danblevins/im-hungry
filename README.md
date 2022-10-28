@@ -2,7 +2,7 @@
 
 ## About this Project
 
-This project allows the user to query and return results from Yelp's QraphQL and Rest API. 
+This project allows the user to query and return results from Yelp's GraphQL and Rest API. 
 
 For more information visit: https://imhungry-danblevins.herokuapp.com/
 
