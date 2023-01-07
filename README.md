@@ -2,6 +2,8 @@
 
 ## About this Project
 
+!! This project was hosted on Heroku's free version, until they revoked the free service !!
+
 This project allows the user to query and return results from Yelp's GraphQL and Rest API. 
 
 For more information visit: https://imhungry-danblevins.herokuapp.com/
